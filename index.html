@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Ulfiyatun Solekha</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-950 text-white font-sans">
+  <nav class="fixed top-0 w-full bg-slate-950/90 backdrop-blur border-b border-slate-800 z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="font-bold text-xl text-cyan-400">Ulfiyatun</h1>
+      <div class="space-x-5 text-sm hidden md:block">
+        <a href="#about" class="hover:text-cyan-400">About</a>
+        <a href="#skills" class="hover:text-cyan-400">Skills</a>
+        <a href="#projects" class="hover:text-cyan-400">Projects</a>
+        <a href="#contact" class="hover:text-cyan-400">Contact</a>
+        <a href="#certificates" class="hover:text-cyan-400">Certificates</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="min-h-screen flex items-center pt-24">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <p class="text-cyan-400 mb-3">Hello, I'm</p>
+        <h2 class="text-4xl md:text-6xl font-bold leading-tight">
+          Ulfiyatun Solekha
+        </h2>
+        <h3 class="text-xl md:text-2xl text-slate-300 mt-4">
+          Informatics Student | Data Science Enthusiast
+        </h3>
+        <p class="text-slate-400 mt-6 leading-relaxed">
+          Mahasiswa Informatika Universitas AMIKOM Yogyakarta yang memiliki minat
+          pada bidang Data Science, Machine Learning, Data Analytics, dan Web Development.
+          Saya terbiasa mengerjakan proyek berbasis data, forecasting, dan sistem informasi.
+        </p>
+
+        <div class="mt-8 flex gap-4">
+          <a href="#projects" class="bg-cyan-500 hover:bg-cyan-600 px-6 py-3 rounded-lg font-semibold">
+            View Projects
+          </a>
+          <a href="#contact" class="border border-cyan-500 text-cyan-400 hover:bg-cyan-500 hover:text-white px-6 py-3 rounded-lg font-semibold">
+            Contact Me
+          </a>
+        </div>
+      </div>
+
+      <div class="flex justify-center">
+        <div class="w-72 h-72 rounded-full bg-gradient-to-br from-cyan-400 to-blue-700 flex items-center justify-center shadow-xl shadow-cyan-500/20">
+          <div class="w-64 h-64 rounded-full bg-slate-900 flex items-center justify-center text-7xl font-bold text-cyan-400">
+            <div class="w-64 h-64 rounded-full overflow-hidden">
+            <img
+            src="image/Foto.JPG"
+            alt="Profile"
+            class="w-full h-full object-cover">
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="py-20 bg-slate-900">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-6">About Me</h2>
+      <p class="text-slate-400 leading-relaxed">
+        Saya adalah mahasiswa S1 Informatika yang tertarik pada pengolahan data,
+        machine learning, dan pengembangan aplikasi web. Saya senang membangun solusi
+        digital yang dapat membantu proses analisis, prediksi, dan pengambilan keputusan
+        berbasis data. Memiliki kemampuan komunikasi yang baik serta mudah berinteraksi 
+        dan bekerja sama dalam tim. Terbiasa terlibat dalam kegiatan kampus dan projek 
+        akademik sehingga mampu bekerja secara kolaboratif, terstruktur, dan 
+        berorientasi pada hasil. Berkomitmen untuk terus mengembangkan keterampilan 
+        teknis maupun soft skills demi mendukung karier profesional di bidang teknologi 
+        informasi.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills" class="py-20">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-3xl font-bold text-center mb-12">Skills</h2>
+
+      <div class="grid md:grid-cols-4 gap-6">
+        <div class="bg-slate-900 p-6 rounded-xl border border-slate-800">
+          <h3 class="text-xl font-semibold text-cyan-400 mb-4">Data Science</h3>
+          <p class="text-slate-400">Python, Pandas, NumPy, Data Cleaning, Data Visualization</p>
+        </div>
+
+        <div class="bg-slate-900 p-6 rounded-xl border border-slate-800">
+          <h3 class="text-xl font-semibold text-cyan-400 mb-4">Machine Learning</h3>
+          <p class="text-slate-400">Random Forest, Forecasting, PSO, Sliding Window, Evaluation Metrics</p>
+        </div>
+
+        <div class="bg-slate-900 p-6 rounded-xl border border-slate-800">
+          <h3 class="text-xl font-semibold text-cyan-400 mb-4">Web Development</h3>
+          <p class="text-slate-400">HTML, CSS, JavaScript, PHP, Laravel, MySQL</p>
+        </div>
+
+        <div class="bg-slate-900 p-6 rounded-xl border border-slate-800">
+          <h3 class="text-xl font-semibold text-cyan-400 mb-4">Tools</h3>
+          <p class="text-slate-400">GitHub, Jupyter Notebook, MLflow, VS Code, Google Colab</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="py-20 bg-slate-900">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-12">GitHub Projects</h2>
+
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-slate-950 p-6 rounded-xl border border-slate-800 hover:border-cyan-500 transition">
+        <h3 class="text-xl font-semibold text-cyan-400 mb-3">Forecasting Produksi Padi</h3>
+        <p class="text-slate-400 mb-4">
+          Project machine learning untuk prediksi produksi padi menggunakan Random Forest,
+          PSO, dan Sliding Window.
+        </p>
+        <p class="text-sm text-slate-500 mb-5">Python • Scikit-Learn • MLflow</p>
+        <a href="https://github.com/Ulfytnslkh/Forecasting-Prediksi-Produksi-Padi-di-Jawa-Timur-dengan-Random-Forest.git" target="_blank" class="inline-block bg-cyan-500 hover:bg-cyan-600 px-4 py-2 rounded-lg text-sm font-semibold">
+          View GitHub
+        </a>
+      </div>
+
+      <div class="bg-slate-950 p-6 rounded-xl border border-slate-800 hover:border-cyan-500 transition">
+        <h3 class="text-xl font-semibold text-cyan-400 mb-3">EV Charging Station Port Detection</h3>
+        <p class="text-slate-400 mb-4">
+        Sistem deteksi ketersediaan port pengisian kendaraan listrik menggunakan
+        Computer Vision dan Deep Learning untuk membantu pengguna menemukan
+        charging port yang tersedia secara real-time.
+        </p>
+        <p class="text-sm text-slate-500 mb-5">Python • LSTM </p>
+        <a href="https://github.com/Ulfytnslkh/Detection-of-the-availability-of-electric-vehicle-charging-station-ports.git" target="_blank" class="inline-block bg-cyan-500 hover:bg-cyan-600 px-4 py-2 rounded-lg text-sm font-semibold">
+          View GitHub
+        </a>
+      </div>
+
+      <div class="bg-slate-950 p-6 rounded-xl border border-slate-800 hover:border-cyan-500 transition">
+        <h3 class="text-xl font-semibold text-cyan-400 mb-3">Ticketting IT Support</h3>
+        <p class="text-slate-400 mb-4">
+        Aplikasi ticketing berbasis web yang digunakan untuk mengelola laporan,
+        keluhan, dan permintaan dukungan teknis secara terstruktur dan efisien dengan tampilan user friendly.
+        </p>
+        <p class="text-sm text-slate-500 mb-5">Laravel • PHP • MySQL • Bootstrap </p>
+        <a href="https://github.com/Ulfytnslkh/Ticketing-IT-Support.git" target="_blank" class="inline-block bg-cyan-500 hover:bg-cyan-600 px-4 py-2 rounded-lg text-sm font-semibold">
+          View GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section id="education" class="py-20">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-8">Education</h2>
+      <div class="bg-slate-900 p-8 rounded-xl border border-slate-800">
+        <h3 class="text-2xl font-semibold text-cyan-400">Universitas AMIKOM Yogyakarta</h3>
+        <p class="text-slate-300 mt-2">S1 Informatika</p>
+        <p class="text-slate-500 mt-2">2023 - Sekarang</p>
+      </div>
+      <div class="bg-slate-900 p-8 rounded-xl border border-slate-800">
+        <h3 class="text-2xl font-semibold text-cyan-400">SMKN 1 Pemalang</h3>
+        <p class="text-slate-300 mt-2">Teknik Komputer & Jaringan</p>
+        <p class="text-slate-500 mt-2">2020 - 2023</p>
+      </div>
+    </div>
+  </section>
+
+    <section id="certificates" class="py-20 bg-slate-950">
+    <div class="max-w-6xl mx-auto px-6">
+
+        <h2 class="text-3xl font-bold text-center text-white mb-4">
+            Certificates & Achievements
+        </h2>
+
+        <p class="text-center text-slate-400 mb-12">
+            Beberapa sertifikat dan pencapaian syang saya miliki
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Sertifikat 1 -->
+            <div class="bg-slate-900 rounded-xl overflow-hidden border border-slate-800 shadow-lg hover:shadow-cyan-500/10 hover:-translate-y-2 transition duration-300">
+
+                <a href="image/Sertifikat1.jpg" target="_blank">
+                    <img
+                        src="image/Sertifikat1.jpg"
+                        alt="Certificate 1"
+                        class="w-full h-56 object-cover"
+                    >
+                </a>
+
+                <div class="p-5">
+                    <h3 class="font-bold text-lg text-cyan-400">
+                        Magang Mandiri
+                    </h3>
+
+                    <p class="text-slate-400 text-sm mt-2">
+                        PT Sawit Sumbermas Sarana • 2025
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- Sertifikat 2 -->
+            <div class="bg-slate-900 rounded-xl overflow-hidden border border-slate-800 shadow-lg hover:shadow-cyan-500/10 hover:-translate-y-2 transition duration-300">
+
+                <a href="image/Sertifikat2.jpg" target="_blank">
+                    <img
+                        src="image/Sertifikat2.jpg"
+                        alt="Certificate 2"
+                        class="w-full h-56 object-cover"
+                    >
+                </a>
+
+                <div class="p-5">
+                    <h3 class="font-bold text-lg text-cyan-400">
+                        Artificial Intelligence (AI)
+                    </h3>
+
+                    <p class="text-slate-400 text-sm mt-2">
+                        Kompetisi Ignition • 2025
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- Sertifikat 3 -->
+            <div class="bg-slate-900 rounded-xl overflow-hidden border border-slate-800 shadow-lg hover:shadow-cyan-500/10 hover:-translate-y-2 transition duration-300">
+
+                <a href="image/Sertifikat3.jpg" target="_blank">
+                    <img
+                        src="image/Sertifikat3.jpg"
+                        alt="Certificate 3"
+                        class="w-full h-56 object-cover"
+                    >
+                </a>
+
+                <div class="p-5">
+                    <h3 class="font-bold text-lg text-cyan-400">
+                        Innovation System
+                    </h3>
+
+                    <p class="text-slate-400 text-sm mt-2">
+                        Kompetisi Intelecta Cup • 2025
+                    </p>
+                </div>
+
+            </div>
+
+            <!--Sertifikat 4-->
+            <div class="bg-slate-900 rounded-xl overflow-hidden border border-slate-800 shadow-lg hover:shadow-cyan-500/10 hover:-translate-y-2 transition duration-300">
+
+                <a href="image/Serifikat4.jpg" target="_blank">
+                    <img
+                        src="image/Serifikat4.jpg"
+                        alt="Certificate 3"
+                        class="w-full h-56 object-cover"
+                    >
+                </a>
+
+                <div class="p-5">
+                    <h3 class="font-bold text-lg text-cyan-400">
+                        IBM Data Scient
+                    </h3>
+
+                    <p class="text-slate-400 text-sm mt-2">
+                        IBM • 2025
+                    </p>
+                </div>
+
+            </div>
+
+            <!--Sertifikat 4-->
+            <div class="bg-slate-900 rounded-xl overflow-hidden border border-slate-800 shadow-lg hover:shadow-cyan-500/10 hover:-translate-y-2 transition duration-300">
+
+                <a href="image/Sertifikat5.jpg" target="_blank">
+                    <img
+                        src="image/Sertifikat5.jpg"
+                        alt="Certificate 3"
+                        class="w-full h-56 object-cover"
+                    >
+                </a>
+
+                <div class="p-5">
+                    <h3 class="font-bold text-lg text-cyan-400">
+                        Kompetisi Sains
+                    </h3>
+
+                    <p class="text-slate-400 text-sm mt-2">
+                        Jenius Kompetisi • 2022
+                    </p>
+                </div>
+
+            </div>
+
+            <!--Sertifikat 4-->
+            <div class="bg-slate-900 rounded-xl overflow-hidden border border-slate-800 shadow-lg hover:shadow-cyan-500/10 hover:-translate-y-2 transition duration-300">
+
+                <a href="image/Serti6.jpg" target="_blank">
+                    <img
+                        src="image/Serti6.jpg"
+                        alt="Certificate 3"
+                        class="w-full h-56 object-cover"
+                    >
+                </a>
+
+                <div class="p-5">
+                    <h3 class="font-bold text-lg text-cyan-400">
+                        IT Software Solution For Business
+                    </h3>
+
+                    <p class="text-slate-400 text-sm mt-2">
+                        LKS Kab Pemalang • 2023
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+        </div>
+
+        
+
+    </div>
+</section>
+
+  <section id="contact" class="py-20 bg-slate-900">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
+      <p class="text-slate-400 mb-8">
+        Tertarik untuk berkolaborasi atau melihat project saya lebih lanjut?
+      </p>
+
+      <div class="flex flex-col md:flex-row justify-center gap-4">
+        <a href="mailto:ulfiatunsolekha31@students.amikom.ac.id" class="bg-cyan-500 hover:bg-cyan-600 px-6 py-3 rounded-lg font-semibold">
+          Email Me
+        </a>
+        <a href="https://github.com/Ulfytnslkh" target="_blank" class="border border-slate-700 hover:border-cyan-500 px-6 py-3 rounded-lg font-semibold">
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/ulfiyatun-solekha-770aa6302/" target="_blank" class="border border-slate-700 hover:border-cyan-500 px-6 py-3 rounded-lg font-semibold">
+          LinkedIn
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-6 text-center text-slate-500 border-t border-slate-800">
+    <p>© 2026 Ulfiyatun Solekha. All rights reserved.</p>
+  </footer>
+</body>
+</html>
